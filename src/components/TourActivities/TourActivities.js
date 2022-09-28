@@ -3,8 +3,8 @@ import Profile from '../Profile/Profile';
 
 const TourActivities = ({activities}) => {
     let requierdTime = 0;
-    for(const time of activities){
-      requierdTime = requierdTime + time.time;
+    for(const activity of activities){
+      requierdTime = requierdTime + activity.time;
     }
   return (
     <div className=' sticky top-0'>
@@ -34,7 +34,7 @@ const TourActivities = ({activities}) => {
           <p>Break Time</p>
         </div>
         <div className='text-gray-600'>
-          <p>10 Hours</p>
+          <p>20 Hours</p>
         </div>
       </div>
       <div>
