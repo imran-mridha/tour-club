@@ -66,7 +66,7 @@ const TourActivities = ({ activities }) => {
         </div>
       </div>
       <div>
-        <button onClick={() => handleDone()} className='w-full bg-red-400 py-2 rounded-lg font-semibold'>Activity Completed</button>
+        <button onClick={() => handleDone()} className='w-full bg-red-400 py-2 rounded-lg font-semibold uppercase'>Activity Completed</button>
       </div>
     </div>
   );
