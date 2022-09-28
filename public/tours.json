@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "name": "Nature & Adventure",
+    "time": 3,
+    "img": "https://cdn.getyourguide.com/img/tour/ab5311ab404f1605.jpeg/62.webp"
+  },
+  {
+    "id": "2",
+    "name": "Extreme Sports",
+    "time": 1,
+    "img": "https://cdn.getyourguide.com/img/tour/6d67f4070c65f00b.jpeg/62.webp"
+  },
+  {
+    "id": "3",
+    "name": "Shows & Musicals",
+    "time": 4,
+    "img": "https://cdn.getyourguide.com/img/tour/130400b3e3d125ad.jpeg/62.webp"
+  },
+  {
+    "id": "4",
+    "name": "Cruises & Boat Tours",
+    "time": 2,
+    "img": "https://cdn.getyourguide.com/img/tour/af8a874002f2decb.jpeg/62.webp"
+  },
+  {
+    "id": "5",
+    "name": "Food & Drinks",
+    "time": 1,
+    "img": "https://cdn.getyourguide.com/img/tour/f7816d04fb846d6c.jpeg/62.webp"
+  },
+  {
+    "id": "6",
+    "name": "Museums & Exhibitions",
+    "time": 2,
+    "img": "https://cdn.getyourguide.com/img/tour/56e6eb371274d.jpeg/62.webp"
+  }
+]
