@@ -1,10 +1,10 @@
 const addToDatabase = (id) => {
-    localStorage.setItem('Cart', id)
+    localStorage.setItem('break-time', id)
 }
 
 const getStoredCart =  () => {
     let shoppingCart = {};
-    const storedCart = localStorage.getItem('Cart');
+    const storedCart = localStorage.getItem('break-time');
     if (storedCart) {
         shoppingCart = JSON.parse(storedCart)
     } else {
