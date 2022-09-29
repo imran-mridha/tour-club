@@ -49,7 +49,7 @@ const TourActivities = ({ activities }) => {
       <div className='py-5'>
         <h2 className='text-2xl font-semibold'>Visiting Details</h2>
       </div>
-      <div className='flex justify-between bg-gray-300 p-5 rounded-lg'>
+      <div className='flex justify-between bg-slate-300 p-5 rounded-lg'>
         <div className='font-semibold'>
           <p>Visiting Time</p>
         </div>
@@ -57,7 +57,7 @@ const TourActivities = ({ activities }) => {
           <p> <span className='font-bold'>{requierdTime}</span> hours</p>
         </div>
       </div>
-      <div className='flex justify-between bg-gray-300 p-5 rounded-lg my-5'>
+      <div className='flex justify-between bg-slate-300 p-5 rounded-lg my-5'>
         <div className='font-semibold'>
           <p>Break Time</p>
         </div>
@@ -66,7 +66,7 @@ const TourActivities = ({ activities }) => {
         </div>
       </div>
       <div>
-        <button onClick={() => handleDone()} className='w-full bg-red-400 py-2 rounded-lg font-semibold uppercase'>Activity Completed</button>
+        <button onClick={() => handleDone()} className='w-full bg-red-500 hover:bg-red-600 py-2 rounded-lg font-semibold uppercase text-white'>Activity Completed</button>
       </div>
     </div>
   );
