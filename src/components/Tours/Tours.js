@@ -23,7 +23,7 @@ const Tours = () => {
         <div className='col-span-5 md:col-span-4 lg:col-span-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-10 mx-10'>
           {tours.map(tour => <TourPlan key={tour.id} tour={tour} handleActivities ={handleActivities}/>)}
         </div>
-        <div className='bg-white rounded-lg  pt-10 px-5'>
+        <div className='bg-white rounded-lg   px-5'>
           <TourActivities tours = {tours} setTours = {setTours} activities ={activities}/>
         </div>
       </div>
