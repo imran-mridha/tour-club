@@ -4,9 +4,9 @@ import profileImg from '../../images/iman.png'
 const Header = () => {
   return (
     <div className=''>
-      <div className="navbar bg-red-100">
+      <div className="navbar bg-red-100 px-10">
         <div className="flex-1">
-          <a href='/' className="btn btn-ghost normal-case text-xl">daisyUI</a>
+          <a href='/' className=" text-xl">daisyUI</a>
         </div>
         <div className="flex-none gap-2">
           <div className="dropdown dropdown-end">
