@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { addToDatabase, getStoredCart } from '../../utilities/fakedb';
+import { addToDatabase, getStoredTime } from '../../utilities/fakedb';
 import Profile from '../Profile/Profile';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -8,7 +8,7 @@ const TourActivities = ({ activities }) => {
   const [time, setTime] = useState(0)
   const [breaktime, setBreaktime] = useState([]);
   useEffect(() => {
-    const getDataFromStorage = getStoredCart()
+    const getDataFromStorage = getStoredTime()
     setBreaktime(getDataFromStorage);
   }, [time])
   const handleBreakTime = (id) => {
@@ -41,7 +41,7 @@ const TourActivities = ({ activities }) => {
       <div className='py-5'>
         <h2 className='text-2xl font-semibold'>Add A Break</h2>
       </div>
-      <div className='break bg-gray-200 rounded-lg p-5 flex justify-center gap-x-4'>
+      <div className='break bg-gray-100 rounded-lg p-5 flex justify-center gap-x-4'>
         <div><button onClick={() => handleBreakTime(1)} className='bg-white hover:bg-red-500 hover:text-white focus:bg-red-500  focus:text-white w-12 h-12 rounded-full'><span className='text-2xl'>01</span>hr</button></div>
         <div><button onClick={() => handleBreakTime(2)} className='bg-white hover:bg-red-500 hover:text-white focus:bg-red-500  focus:text-white w-12 h-12 rounded-full'><span className='text-2xl'>02</span>hr</button></div>
         <div><button onClick={() => handleBreakTime(3)} className='bg-white hover:bg-red-500 hover:text-white focus:bg-red-500  focus:text-white w-12 h-12 rounded-full'><span className='text-2xl'>03</span>hr</button></div>
@@ -50,7 +50,7 @@ const TourActivities = ({ activities }) => {
       <div className='py-5'>
         <h2 className='text-2xl font-semibold'>Visiting Details</h2>
       </div>
-      <div className='flex justify-between md:justify-evenly lg:justify-between bg-gray-200 p-5 rounded-lg'>
+      <div className='flex justify-between md:justify-evenly lg:justify-between bg-gray-100 p-5 rounded-lg'>
         <div className='font-semibold'>
           <p>Visiting Time</p>
         </div>
@@ -58,7 +58,7 @@ const TourActivities = ({ activities }) => {
           <p> <span className='font-bold'>{requierdTime}</span> hours</p>
         </div>
       </div>
-      <div className='flex justify-between md:justify-evenly lg:justify-between bg-gray-200 p-5 rounded-lg my-5'>
+      <div className='flex justify-between md:justify-evenly lg:justify-between bg-gray-100 p-5 rounded-lg my-5'>
         <div className='font-semibold'>
           <p>Break Time</p>
         </div>
@@ -67,7 +67,7 @@ const TourActivities = ({ activities }) => {
         </div>
       </div>
       <div className='pb-10'>
-        <button onClick={() => handleDone()} className='w-full border-2 border-red-500 hover:bg-red-600 py-2 rounded-lg font-bold uppercase hover:text-white'>Activity Completed</button>
+        <button onClick={() => handleDone()} className='w-full border-2 border-red-500 hover:bg-red-500 py-2 rounded-lg font-bold uppercase hover:text-white'>Activity Completed</button>
       </div>
     </div>
   );

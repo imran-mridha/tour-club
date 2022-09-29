@@ -15,7 +15,7 @@ const Profile = () => {
           <p><FontAwesomeIcon className='text-gray-400' icon = {faLocationPin}/> Dhaka Bangladesh</p>
         </div>
       </div>
-      <div className='profile bg-gray-200 rounded-lg p-5 flex justify-evenly lg:justify-between'>
+      <div className='profile bg-gray-100 rounded-lg p-5 flex justify-evenly lg:justify-between'>
         <div>
           <p><span className='text-2xl font-semibold'>05</span><small>tour</small></p>
           <p>Country</p>

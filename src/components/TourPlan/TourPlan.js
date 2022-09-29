@@ -1,15 +1,15 @@
 import React from 'react';
 
 const TourPlan = ({tour,handleActivities}) => {
-  const {name,img,time} = tour;
+  const {name,img,time,description} = tour;
 
   return (
       <div className='p-4 shadow-lg rounded-lg bg-white'>
-        <img className='rounded-lg mb-3' src={img} alt="" />
-        <p className='text-2xl font-semibold'>{name}</p>
-        <p className='my-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quas.</p>
-        <p className='mb-3 font-semibold'>Time Required: {time} hrs</p>
-        <button onClick={()=>handleActivities(tour)} className='border-2 border-red-500 hover:bg-red-600 uppercase w-full mb-3 rounded-lg py-2 font-semibold hover:text-white'>Add to list</button>
+        <img className='rounded-lg mb-3 w-11/12 mx-auto lg:w-full' src={img} alt="" />
+        <p className='text-2xl font-semibold'>{name? name: 'Not Found'}</p>
+        <p className='my-3'>{description? description.slice(0,100) + '...': 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt, ut?'}</p>
+        <p className='mb-3 font-semibold'>Time Required: {time? time: 'Not Found'} hrs</p>
+        <button onClick={()=>handleActivities(tour)} className='border-2 border-red-500 hover:bg-red-500 focus:bg-red-500  focus:text-white uppercase w-full mb-3 rounded-lg py-2 font-semibold hover:text-white'>Add to list</button>
     </div>
   );
 };

@@ -3,36 +3,42 @@
     "id": "1",
     "name": "Nature & Adventure",
     "time": 3,
-    "img": "https://cdn.getyourguide.com/img/tour/ab5311ab404f1605.jpeg/62.webp"
+    "img": "https://cdn.getyourguide.com/img/tour/ab5311ab404f1605.jpeg/62.webp",
+    "description": "Discover the natural paradises of this world, enjoy the wilderness with all your senses and experience a true outdoor adventure this is what Natucate's nature and adventure travel programmes offer you."
   },
   {
     "id": "2",
     "name": "Extreme Sports",
     "time": 1,
-    "img": "https://cdn.getyourguide.com/img/tour/6d67f4070c65f00b.jpeg/62.webp"
+    "img": "https://cdn.getyourguide.com/img/tour/6d67f4070c65f00b.jpeg/62.webp",
+    "description": "Action sports, adventure sports or extreme sports are activities perceived as involving a high degree of risk. These activities often involve speed, height, a high level of physical exertion and highly specialized gear."
   },
   {
     "id": "3",
     "name": "Shows & Musicals",
     "time": 4,
-    "img": "https://cdn.getyourguide.com/img/tour/130400b3e3d125ad.jpeg/62.webp"
+    "img": "https://cdn.getyourguide.com/img/tour/130400b3e3d125ad.jpeg/62.webp",
+    "description": "From the best movie musicals to amazing documentaries to classic concert films, these shows and films will keep adults and kids alike in rhythm."
   },
   {
     "id": "4",
     "name": "Cruises & Boat Tours",
     "time": 2,
-    "img": "https://cdn.getyourguide.com/img/tour/af8a874002f2decb.jpeg/62.webp"
+    "img": "https://cdn.getyourguide.com/img/tour/af8a874002f2decb.jpeg/62.webp",
+    "description": "Take a 2 hours boat ride to within 100 feet of the Statue of Liberty. Cruise right under the Brooklyn Bridge and see the most famous skyline in the world."
   },
   {
     "id": "5",
     "name": "Food & Drinks",
     "time": 1,
-    "img": "https://cdn.getyourguide.com/img/tour/f7816d04fb846d6c.jpeg/62.webp"
+    "img": "https://cdn.getyourguide.com/img/tour/f7816d04fb846d6c.jpeg/62.webp",
+    "description": "If you are in a constant search for lip-smacking tea-time snacks, we have got you covered. We bring to you a recipe that is going to be your next favourite tea-time snack."
   },
   {
     "id": "6",
     "name": "Museums & Exhibitions",
     "time": 2,
-    "img": "https://cdn.getyourguide.com/img/tour/56e6eb371274d.jpeg/62.webp"
+    "img": "https://cdn.getyourguide.com/img/tour/56e6eb371274d.jpeg/62.webp",
+    "description": "Cultural spaces, for example museums and art centres, play a key role in the development of free and educated societies. Equipping these spaces with the latest technologies ensures cultural heritage is preserved and gives us a new way to look after who we are."
   }
 ]

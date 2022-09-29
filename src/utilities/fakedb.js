@@ -2,14 +2,14 @@ const addToDatabase = (id) => {
     localStorage.setItem('break-time', id)
 }
 
-const getStoredCart =  () => {
-    let shoppingCart = {};
-    const storedCart = localStorage.getItem('break-time');
-    if (storedCart) {
-        shoppingCart = JSON.parse(storedCart)
+const getStoredTime =  () => {
+    let breakTime = {};
+    const storedTime = localStorage.getItem('break-time');
+    if (storedTime) {
+        breakTime = JSON.parse(storedTime)
     } else {
-        shoppingCart = 0;
+        breakTime = 0;
     }
-    return shoppingCart;
+    return breakTime;
 }
-export{addToDatabase, getStoredCart}
+export{addToDatabase, getStoredTime}
