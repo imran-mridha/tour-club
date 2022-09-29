@@ -29,7 +29,7 @@ const Faq = () => {
           <div className='State'>
             <p className='text-2xl font-semibold my-2'>Props:</p>
             <p>1. State is mutable.</p>
-            <p>2. State changes can be asynchronous.</p>      
+            <p>2. State changes can be asynchronous.</p>
             <p>3. State cannot be accessed by child components.</p>
             <p>4. Stateless components cannot have State.</p>
             <p>5. State cannot make components reusable.</p>
@@ -41,7 +41,9 @@ const Faq = () => {
           Why we use useEffect in react?
         </div>
         <div className="collapse-content">
-          <p>tabIndex={0} attribute is necessary to make the div focusable</p>
+          <p>The UseEffect generally do the side effect work in react.
+
+            Examples of side-effects are fetch requests, manipulating DOM directly, using timer functions like setTimeout(), and more.</p>
         </div>
       </div>
     </div>
