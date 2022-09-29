@@ -8,8 +8,8 @@ const TourActivities = ({ activities }) => {
   const [time, setTime] = useState(0)
   const [breaktime, setBreaktime] = useState([]);
   useEffect(() => {
-    const getDataFromStorage = getStoredTime()
-    setBreaktime(getDataFromStorage);
+    const getTimeFromStorage = getStoredTime()
+    setBreaktime(getTimeFromStorage);
   }, [time])
   const handleBreakTime = (id) => {
     addToDatabase(id);

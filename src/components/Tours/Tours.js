@@ -24,7 +24,6 @@ const Tours = () => {
           {tours.map(tour => <TourPlan key={tour.id} tour={tour} handleActivities ={handleActivities}/>)}
         </div>
         <div className='bg-white rounded-lg  pt-10 px-5'>
-        {/* {tours.map(tour => <TourActivities key={tour.id} tour={tour} />)} */}
           <TourActivities tours = {tours} setTours = {setTours} activities ={activities}/>
         </div>
       </div>

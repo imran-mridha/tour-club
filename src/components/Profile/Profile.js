@@ -1,7 +1,7 @@
 import React from 'react';
 import profileImg from '../../images/iman.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLocationPin } from '@fortawesome/free-solid-svg-icons'
+import { faLocationPin } from '@fortawesome/free-solid-svg-icons';
 
 const Profile = () => {
   return (
@@ -12,7 +12,7 @@ const Profile = () => {
         </div>
         <div>
           <p className='text-2xl font-semibold'>Imran Mridha</p>
-          <p><FontAwesomeIcon className='text-gray-400' icon = {faLocationPin}/> Dhaka Bangladesh</p>
+          <p><FontAwesomeIcon className='text-gray-400' icon = {faLocationPin}/> Dhaka, Bangladesh</p>
         </div>
       </div>
       <div className='profile bg-gray-100 rounded-lg p-5 flex justify-evenly lg:justify-between'>
