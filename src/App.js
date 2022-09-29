@@ -5,7 +5,7 @@ import Tours from './components/Tours/Tours';
 
 function App() {
   return (
-    <div className="bg-slate-50">
+    <div className="bg-slate-100">
       <Header />
       <Tours />
       <Faq />
