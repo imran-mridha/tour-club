@@ -18,7 +18,7 @@ const Tours = () => {
   }
   return (
     <div className=''>
-      <h2 className='mx-10 pt-5 text-2xl font-semibold'>Set Today's Tour Plan</h2>
+      <h2 className='mx-10 pt-5 text-2xl font-semibold'>Select Today's <span className='font-bold text-red-600'>Tour Plan</span></h2>
       <div className='grid grid-cols-1 lg:grid-cols-4'>
         <div className='col-span-5 md:col-span-4 lg:col-span-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-10 mx-10'>
           {tours.map(tour => <TourPlan key={tour.id} tour={tour} handleActivities ={handleActivities}/>)}

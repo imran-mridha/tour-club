@@ -1,12 +1,14 @@
 import React from 'react';
-import profileImg from '../../images/iman.png'
+import profileImg from '../../images/iman.png';
+import logo from '../../images/logo.png';
 
 const Header = () => {
   return (
     <div className=''>
       <div className="navbar bg-red-100 px-10">
-        <div className="flex-1">
-          <a href='/' className=" text-xl">daisyUI</a>
+        <div className="flex-1 items-center">
+          <a href='/' className=" text-xl"><img className='w-20 h-12' src={logo} alt="" /> </a>
+          <h1 className='text-2xl font-bold uppercase text-red-600'>Club BD</h1>
         </div>
         <div className="flex-none gap-2">
           <div className="dropdown dropdown-end">

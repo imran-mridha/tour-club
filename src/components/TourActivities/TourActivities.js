@@ -19,6 +19,7 @@ const TourActivities = ({ activities }) => {
   const handleDone = () => {
     toast("Awesome !! Today's Tour Activity Completed.");
   }
+
   let requierdTime = 0;
   for (const activity of activities) {
     requierdTime = requierdTime + activity.time;
@@ -40,7 +41,7 @@ const TourActivities = ({ activities }) => {
       <div className='py-5'>
         <h2 className='text-2xl font-semibold'>Add A Break</h2>
       </div>
-      <div className='break bg-slate-300 rounded-lg p-5 flex justify-between'>
+      <div className='break bg-red-300 rounded-lg p-5 flex justify-center gap-x-4'>
         <div><button onClick={() => handleBreakTime(1)} className='bg-red-200 w-12 h-12 rounded-full'><span className='font-semibold text-2xl'>01</span>hr</button></div>
         <div><button onClick={() => handleBreakTime(2)} className='bg-red-200 w-12 h-12 rounded-full'><span className='font-semibold text-2xl'>02</span>hr</button></div>
         <div><button onClick={() => handleBreakTime(3)} className='bg-red-200 w-12 h-12 rounded-full'><span className='font-semibold text-2xl'>03</span>hr</button></div>
@@ -49,7 +50,7 @@ const TourActivities = ({ activities }) => {
       <div className='py-5'>
         <h2 className='text-2xl font-semibold'>Visiting Details</h2>
       </div>
-      <div className='flex justify-between bg-slate-300 p-5 rounded-lg'>
+      <div className='flex justify-between md:justify-evenly lg:justify-between bg-red-300 p-5 rounded-lg'>
         <div className='font-semibold'>
           <p>Visiting Time</p>
         </div>
@@ -57,7 +58,7 @@ const TourActivities = ({ activities }) => {
           <p> <span className='font-bold'>{requierdTime}</span> hours</p>
         </div>
       </div>
-      <div className='flex justify-between bg-slate-300 p-5 rounded-lg my-5'>
+      <div className='flex justify-between md:justify-evenly lg:justify-between bg-red-300 p-5 rounded-lg my-5'>
         <div className='font-semibold'>
           <p>Break Time</p>
         </div>

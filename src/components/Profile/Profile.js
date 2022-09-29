@@ -15,18 +15,18 @@ const Profile = () => {
           <p><FontAwesomeIcon icon = {faLocationPin}/> Dhaka Bangladesh</p>
         </div>
       </div>
-      <div className='profile bg-slate-300 rounded-lg p-5 flex justify-between'>
+      <div className='profile bg-red-300 rounded-lg p-5 flex justify-evenly lg:justify-between'>
         <div>
-          <p><span className='text-2xl font-semibold'>50</span><small>Kg</small></p>
-          <p>Weight</p>
+          <p><span className='text-2xl font-semibold'>05</span><small>tour</small></p>
+          <p>Country</p>
         </div>
         <div>
-          <p><span className='text-2xl font-semibold'>5.5</span><small>Kg</small></p>
-          <p>Height</p>
+          <p><span className='text-2xl font-semibold'>55</span><small>Place</small></p>
+          <p>Visited</p>
         </div>
         <div>
-          <p><span className='text-2xl font-semibold'>25</span><small>years</small></p>
-          <p>Age</p>
+          <p><span className='text-2xl font-semibold'>60</span><small>days</small></p>
+          <p>Durotion</p>
         </div>
       </div>
     </div>
