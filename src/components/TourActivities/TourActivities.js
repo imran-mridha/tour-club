@@ -17,7 +17,7 @@ const TourActivities = ({ activities }) => {
   }
 
   const handleDone = () => {
-    toast('Helooooooooooooooooo');
+    toast("Awesome !! Today's Tour Activity Completed.");
   }
   let requierdTime = 0;
   for (const activity of activities) {
