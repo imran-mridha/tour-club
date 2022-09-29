@@ -66,7 +66,7 @@ const TourActivities = ({ activities }) => {
           <p><span className='font-bold'>{breaktime}</span> hours</p>
         </div>
       </div>
-      <div>
+      <div className='pb-10'>
         <button onClick={() => handleDone()} className='w-full bg-red-500 hover:bg-red-600 py-2 rounded-lg font-semibold uppercase text-white'>Activity Completed</button>
       </div>
     </div>

@@ -26,7 +26,7 @@ const Profile = () => {
         </div>
         <div>
           <p><span className='text-2xl font-semibold'>60</span><small>days</small></p>
-          <p>Durotion</p>
+          <p>Duration</p>
         </div>
       </div>
     </div>
